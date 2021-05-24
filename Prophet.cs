@@ -41,7 +41,7 @@ namespace Prophet
         private void GotProphecies()
         {
             //
-            var ProphecyPanel = _ingameState.IngameUi.OpenLeftPanel.GetChildAtIndex(2)?.GetChildAtIndex(0)?.GetChildAtIndex(1)?.GetChildAtIndex(1)?.GetChildAtIndex(39)?.GetChildAtIndex(0)?.GetChildAtIndex(0);
+            var ProphecyPanel = _ingameState.IngameUi.OpenLeftPanel.GetChildAtIndex(2)?.GetChildAtIndex(0)?.GetChildAtIndex(1)?.GetChildAtIndex(1)?.GetChildAtIndex(40)?.GetChildAtIndex(0)?.GetChildAtIndex(0);
 
             if ((ProphecyPanel == null) || (!ProphecyPanel.IsVisible)) 
                 return;
